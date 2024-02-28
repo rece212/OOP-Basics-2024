@@ -19,7 +19,7 @@ namespace Test_Basic_OOP
         {
             veggieBurger.getPatty();
             String expected = "Beef";
-            Assert.AreEqual(expected,veggieBurger.getPatty());
+            Assert.AreNotEqual(expected,veggieBurger.getPatty());
         }
     }
 }

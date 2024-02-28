@@ -19,7 +19,7 @@ namespace Test_Basic_OOP
             String expectedChadar = "Cheddar";
             Assert.AreEqual(expectedChadar, cheeseBurger.AddCheddar());
             String expected = "Chedar";
-            Assert.AreEqual(expected, cheeseBurger.AddCheddar());
+            Assert.AreNotEqual(expected, cheeseBurger.AddCheddar());
 
         }
     }
